@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529d6;
+    padding: 10px 10px;
+    color: white;
+    top: 0;
+    position: sticky;
+    z-index: 999;
+    max-height: 70px;
+  }
+  
+  .logo img {
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .logo img:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #ff5722;
+  }
+
+#container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    height:300px;
+    width:50%;
+    margin-top:60px;
+}
+
+form{
+    width: max-content;
+    height: max-content;
+    margin: auto auto;
+}
+
+form input{
+    width:200px;
+}
+
+form input{
+    color:black;
+}
+
+#button{
+    width:fit-content;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:goldenrod;
+    padding:4px;
+}
+
+#heading{
+    margin-top:100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#fileToUpload{
+    color:white;
+}
+
+.nav-links #logout{
+  color:red;
+  cursor: pointer;
+}
+
+
+

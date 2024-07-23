@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    margin:auto;
+    width:700px;
+    height:max-content;
+    margin-top: 160px;
+
+}
+
+#heading{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
+
+#text{
+    font-size: 15px;
+    text-align: center;
+    color:white;
+}
+
+.btn{
+    padding:10px;
+    margin:25px;
+    cursor:pointer;
+    border-radius:5px;
+}
